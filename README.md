@@ -14,3 +14,5 @@ Code I referenced and followed:
 <a target="_blank" rel="noopener noreferrer" href="https://victorzhou.com/blog/keras-neural-network-tutorial/">Reference 1</a>,
 <a target="_blank" rel="noopener noreferrer" href="https://elitedatascience.com/keras-tutorial-deep-learning-in-python">Reference 2</a>,
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/KhanradCoder/LearnKeras/blob/master/3.CNNs/MNIST.ipynb">Reference 3</a>
+
+<a target="_blank" rel="noopener noreferrer" href="https://jeremylau01.github.io/welcome/">Check out my other projects!</a>
