@@ -1,6 +1,6 @@
 # Convolutional_Neural_Network-MNIST
-I created a convolutional neural network to identify handwritten digits.
-It takes in an image of a handwritten number from 0-9 and outputs its prediction of which number it is.
+I created a convolutional neural network to identify handwritten digits. <br>
+It takes in an image of a handwritten number from 0-9 and outputs its prediction of which number it is.<br>
 The neural network is about 99% accurate in identifying the correct number.
 <br><br>
 The images used are from the MNIST database (Modified National Institute of Standards and Technology database) of handwritten digits.
