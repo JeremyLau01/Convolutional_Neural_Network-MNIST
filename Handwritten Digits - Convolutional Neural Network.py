@@ -1,10 +1,9 @@
+### Create, train, and test a neural network that will tell you what number an image is
 # CNN is good for image recognition
 # CNN feeds in convolutions or "chunks" of an image
 # Reasoning behind this is that CNN will pick up on certain patterns
 # b/c looks at chunks instead of one pixel at a time (ex chunk may contain line)
 # using MNIST (handwritten images) dataset with corresponding y value (what digit is)
-# Train a neural network that will tell you what number an image is
-
 
 #=====Gathering Data=====#
 import keras
@@ -122,8 +121,9 @@ model.add(keras.layers.Dense(10, activation='softmax'))
 ### Compile model - defining loss function, optimizer, and metrics (what you are monitoring/looking at)
 # using categorical loss fxn b/c image classification is a categorical problem
 # a metric value is calculated after each batch
+# use adam or adadelta optimizer (optimizer=keras.optimizers.Adadelta())
 # use optimizer='adam' for better results (~99% accuracy with adam, ~89% accuracy with adadelta)
-model.compile(loss=keras.losses.categorical_crossentropy, optimizer=keras.optimizers.Adadelta(), metrics=['accuracy'])
+model.compile(loss=keras.losses.categorical_crossentropy, optimizer='adam', metrics=['accuracy'])
 
 ### Training model
 # batch size = # of training datapoints used in one iteration
