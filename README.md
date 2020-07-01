@@ -6,8 +6,8 @@ The neural network is about 99% accurate in identifying the correct number.
 The images are from the MNIST database (Modified National Institute of Standards and Technology database).
 <br>
 View an image from the MNIST database
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/JeremyLau01/Convolutional_Neural_Network-MNIST/blob/master/Example%20Input%20Image.png">here</a>
-View the code used to create, train, test, and evaluate the neural network
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/JeremyLau01/Convolutional_Neural_Network-MNIST/blob/master/Example%20Input%20Image.png">here</a><br>
+View the code I used to create, train, test, and evaluate the neural network
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/JeremyLau01/Convolutional_Neural_Network-MNIST/blob/master/Handwritten%20Digits%20-%20Convolutional%20Neural%20Network.py">here</a> 
 <br><br>
 Code I referenced and followed:
